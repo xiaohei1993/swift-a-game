@@ -11,8 +11,11 @@
 		182550411A885A640023463A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182550401A885A640023463A /* ViewController.swift */; };
 		182550441A885A640023463A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182550421A885A640023463A /* Main.storyboard */; };
 		182550461A885A640023463A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182550451A885A640023463A /* Images.xcassets */; };
-		182550491A885A640023463A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182550471A885A640023463A /* LaunchScreen.xib */; };
 		182550551A885A640023463A /* swift_a_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182550541A885A640023463A /* swift_a_gameTests.swift */; };
+		18952A141A8B11DE0032E98D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18952A131A8B11DE0032E98D /* AboutViewController.swift */; };
+		18B660A21A8CF2C300B1EBA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B660A01A8CF2C300B1EBA9 /* Default-568h@2x.png */; };
+		18B660A31A8CF2C300B1EBA9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B660A11A8CF2C300B1EBA9 /* Default@2x.png */; };
+		18F0EE4D1A8B45E2003EC010 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 18F0EE4C1A8B45E2003EC010 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +35,13 @@
 		182550401A885A640023463A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182550431A885A640023463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182550451A885A640023463A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		182550481A885A640023463A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1825504E1A885A640023463A /* swift a gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift a gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182550531A885A640023463A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182550541A885A640023463A /* swift_a_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_a_gameTests.swift; sourceTree = "<group>"; };
+		18952A131A8B11DE0032E98D /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ../AboutViewController.swift; sourceTree = "<group>"; };
+		18B660A01A8CF2C300B1EBA9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		18B660A11A8CF2C300B1EBA9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		18F0EE4C1A8B45E2003EC010 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,14 @@
 		1825503B1A885A640023463A /* swift a game */ = {
 			isa = PBXGroup;
 			children = (
+				18F0EE4C1A8B45E2003EC010 /* BullsEye.html */,
 				1825503E1A885A640023463A /* AppDelegate.swift */,
 				182550401A885A640023463A /* ViewController.swift */,
 				182550421A885A640023463A /* Main.storyboard */,
 				182550451A885A640023463A /* Images.xcassets */,
-				182550471A885A640023463A /* LaunchScreen.xib */,
+				18B660A01A8CF2C300B1EBA9 /* Default-568h@2x.png */,
+				18B660A11A8CF2C300B1EBA9 /* Default@2x.png */,
+				18952A131A8B11DE0032E98D /* AboutViewController.swift */,
 				1825503C1A885A640023463A /* Supporting Files */,
 			);
 			path = "swift a game";
@@ -193,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				182550441A885A640023463A /* Main.storyboard in Resources */,
-				182550491A885A640023463A /* LaunchScreen.xib in Resources */,
+				18B660A21A8CF2C300B1EBA9 /* Default-568h@2x.png in Resources */,
+				18B660A31A8CF2C300B1EBA9 /* Default@2x.png in Resources */,
+				18F0EE4D1A8B45E2003EC010 /* BullsEye.html in Resources */,
 				182550461A885A640023463A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18952A141A8B11DE0032E98D /* AboutViewController.swift in Sources */,
 				182550411A885A640023463A /* ViewController.swift in Sources */,
 				1825503F1A885A640023463A /* AppDelegate.swift in Sources */,
 			);
@@ -242,14 +254,6 @@
 				182550431A885A640023463A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		182550471A885A640023463A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182550481A885A640023463A /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,6 +343,7 @@
 				INFOPLIST_FILE = "swift a game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -349,6 +354,7 @@
 				INFOPLIST_FILE = "swift a game/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +411,7 @@
 				1825505A1A885A640023463A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1825505B1A885A640023463A /* Build configuration list for PBXNativeTarget "swift a gameTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +420,7 @@
 				1825505D1A885A640023463A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
